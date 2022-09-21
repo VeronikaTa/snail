@@ -10,8 +10,19 @@ public class SumOfEvenNumbers {
 
     public static int sum(int[] array){
 
-        //put your code here
+        int sum = 0;
 
-        throw new UnsupportedOperationException();
+        if(array == null){
+            return 0;
+        }
+        else{
+            for(int element : array){
+                if(element % 2 == 0){
+                    sum += element;
+                }
+            }
+            return sum;
+        }
+//        throw new UnsupportedOperationException();
     }
 }
