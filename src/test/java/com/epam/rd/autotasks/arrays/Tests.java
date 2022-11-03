@@ -1,12 +1,11 @@
-package com.epam.rd.autotasks.arrays;
+package com.epam.training.student_veronika_tarasova.sum_of_even_numbers.src.test.java.com.epam.rd.autotasks.arrays;
 
-import com.epam.rd.autotasks.arrays.SumOfEvenNumbers;
+import com.epam.training.student_veronika_tarasova.sum_of_even_numbers.src.main.java.com.epam.rd.autotasks.arrays.SumOfEvenNumbers;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
